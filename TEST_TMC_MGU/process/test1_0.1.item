@@ -142,6 +142,13 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// code sample:&#10;//&#10;// multiply by 2 the row identifier&#10;// output_row.id = input_row.id * 2;&#10;//&#10;// lowercase the name&#10;// output_row.name = input_row.name.toLowerCase();&#10;&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_1"/>
+  </node>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
@@ -164,13 +171,18 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e696ce18-f1b2-4fb7-9907-908546741c55"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hG/UGdlU3uGFaOk82mNufmGJYUC6s7K3yWxR+67BtiU13cw7z6PSQ1572McairL1m4QopCTFuoa8&#13;
-pUtA9PoR/w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0062bfe6-c4dd-466d-81de-905580e584ce"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Ygbk9YdKwNEGO7TtM8Xc4Xhnz34rtYMf/gXzHPjWjuvy/fZChkPNtIafKKzSEHtZ9rU/ogqMW0ra&#13;
-NW3TOXc2ZA==</DigestValue></Reference></SignedInfo><SignatureValue>Sm+IDgbawwjCC/TWNt7OQ2XWVtZZgM0gUCtlQKpgNmDFbmazYAumFSitjOJZoyQ6J7NpiereS3Ni&#13;
-s176Nud1BBMP+QCJ5EWQSH5FYsa20EBF+nmcfyP0tUEEI7avLFc3dFvfE9ngo0xqAipFknMAtg/U&#13;
-vX/Yjao6Sn9bIFMhG6P8LPnitDGQVBvXat1odD4HAbzb4dntWvWd4PBVPvFyErWAWV/rxZt3V2Xn&#13;
-EmuZHYwVdp2ampbyuzWrtVJsc/cxrXJPx+nVyUarPzD+g241+XFhU5ynnGDXk/Lb9gLVMD1bByTP&#13;
-hNOr4BFX5KoyB0vLnWgjMW1orB/x3hck7sEDqg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b160ff2c-3683-4549-9644-8c8743686581"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PuAVrvpQ/xL9wv2sHFDGdfRCsU3DMcyhko/mJj8LGx+ZMC1SyM8EEi7fLvqJ/Ub1EyByZ9ATiA5v&#13;
+LSd2OVLpaA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_93b67be6-f50b-42a6-a714-dfb5b0fb13c9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Shj6A2iBcrwxgrRojM7QprU/WrGWaLkfZtjWg6eFCKPyxM7H3tH5jnVKjG+zeVbAVU3pedCmDvrx&#13;
+6VFXPAH6BA==</DigestValue></Reference></SignedInfo><SignatureValue>eQbJJNx7kgN4xXmMejuwyyQhhRN9SKRKJ4Vx47T041LgxKfIirNgSEP+wu6U/MMmq/HNK4UkZluc&#13;
+NeSJrbU6PKs1vAXkth0Dvwj15rieAWBw6D1nFK3ZsU35oD+mtCSF734IAhRcOx6OgolVWZmLajwQ&#13;
+Ac+iN58y+KS47LxrSH1t387mqiu13tlPMnsnj6eu6i8qUFkMFoaz5EUSYX+xQJNjUn84aWrwP4oM&#13;
+Uz8T85BEH+F175uiABuXBRQyQJ2Ojc5RHc9Fr1O/Fpm2jTw42t21dJvG63/h+cVEvxyrjitdC2DA&#13;
+tnDccoylLmzmQFp8z3Nme3fHVb7CrQnlPeLbKg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -192,4 +204,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0062bfe6-c4dd-466d-81de-905580e584ce" Target="#_e696ce18-f1b2-4fb7-9907-908546741c55"><Timestamp>2023-09-22 13:00:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_93b67be6-f50b-42a6-a714-dfb5b0fb13c9" Target="#_b160ff2c-3683-4549-9644-8c8743686581"><Timestamp>2023-09-22 13:01:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
