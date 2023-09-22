@@ -1,0 +1,17 @@
+{
+  "itemId" : "_XjYwYFlBEe6MLbdJdCu4kw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_V8yZcFlWEe6-hqQBCSlIPg",
+    "parameterList" : [ {
+      "id" : "_MdHLQFlcEe6TE-BENkJmdQ",
+      "name" : "var1"
+    }, {
+      "id" : "_MdHLQVlcEe6TE-BENkJmdQ",
+      "name" : "var2"
+    }, {
+      "id" : "_MdHLQllcEe6TE-BENkJmdQ",
+      "name" : "var3"
+    } ]
+  } ]
+}
